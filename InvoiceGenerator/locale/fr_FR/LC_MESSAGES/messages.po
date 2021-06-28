@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-22 15:04+0100\n"
+"PO-Revision-Date: 2021-06-28 13:59+0000\n"
+"Last-Translator: tenole <no@email.fr>\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : "
+"2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: fr_FR\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Parser: loco_parse_po"
+
+#: api.py:47
+#, python-format
+msgid "Vat in: %s"
+msgstr "TVA en : %s"
+
+#: api.py:50
+#, python-format
+msgid "IR: %s"
+msgstr "Reçu de la facture : %s"
+
+#: pdf.py:51
+#, python-format
+msgid "Page %(page_number)d of %(page_count)d"
+msgstr "Page %(page_number)d sur %(page_count)d"
+
+#: pdf.py:129
+#, python-format
+msgid "Invoice num.: %s"
+msgstr "Facture n° : %s"
+
+#: pdf.py:154
+msgid "Customer"
+msgstr "Client"
+
+#: pdf.py:174
+msgid "Provider"
+msgstr "Fournisseur"
+
+#: pdf.py:199
+msgid "Payment information"
+msgstr "Informations de paiement"
+
+#: pdf.py:204
+msgid "Account n."
+msgstr "Compte n° :"
+
+#: pdf.py:205
+msgid "Variable symbol"
+msgstr "Symbole variable"
+
+#: pdf.py:209
+msgid "Specific symbol"
+msgstr "Symbole spécifique"
+
+#: pdf.py:221
+msgid "List of items"
+msgstr "Liste des produits"
+
+#: pdf.py:223
+msgid "Description"
+msgstr "Description"
+
+#: pdf.py:227 pdf.py:240
+msgid "Units"
+msgstr "Unités"
+
+#: pdf.py:229 pdf.py:242
+msgid "Price per one"
+msgstr "Prix à l'unité"
+
+#: pdf.py:231 pdf.py:244
+msgid "Total price"
+msgstr "Prix total"
+
+#: pdf.py:233 pdf.py:335
+msgid "Tax"
+msgstr "TVA"
+
+#: pdf.py:235
+msgid "Total price with tax"
+msgstr "Prix total (TVA incluse)"
+
+#: pdf.py:320
+msgid "Rounding"
+msgstr "Arrondi"
+
+#: pdf.py:331
+msgid "Total"
+msgstr "Total"
+
+#: pdf.py:334
+msgid "Breakdown VAT"
+msgstr "Taux de TVA"
+
+#: pdf.py:335
+msgid "VAT rate"
+msgstr "Taux de TVA"
+
+#: pdf.py:335
+msgid "Without VAT"
+msgstr "Hors Taxe"
+
+#: pdf.py:335
+msgid "With VAT"
+msgstr "Avec TVA"
+
+#: pdf.py:363
+msgid "Total with tax"
+msgstr "Total (TVA incluse)"
+
+#: pdf.py:385
+msgid "Creator"
+msgstr "Éditeur"
+
+#: InvoiceGenerator/pdf.py:402
+msgid "Date of exposure taxable invoice"
+msgstr "Date d'émission de la facture TTC"
+
+msgid "Taxable invoice num.: %s"
+msgstr "Facture TTC n° : %s"
+
+#: pdf.py:404 pdf.py:465
+msgid "Due date"
+msgstr "Date d'échéance"
+
+#: pdf.py:406
+msgid "Taxable date"
+msgstr "Date de l'opération imposable"
+
+#: pdf.py:410 pdf.py:468
+msgid "Paytype"
+msgstr "Type de paiement"
+
+#: pdf.py:443
+#, python-format
+msgid "Correcting document: %s"
+msgstr "Document rectificatif : %s"
+
+#: pdf.py:449
+#, python-format
+msgid "Correction document for invoice: %s"
+msgstr "Document rectificatif pour la facture : %s"
+
+#: pdf.py:450
+#, python-format
+msgid "Reason to correction: %s"
+msgstr "Raisons de rectification : %s"
+
+#: pdf.py:463
+msgid "Date of exposure"
+msgstr "Date d'émission"
+
+msgid "Document num.: %s"
+msgstr "Document n° : %s"
